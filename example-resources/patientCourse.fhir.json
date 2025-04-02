@@ -1,0 +1,35 @@
+{
+    "resourceType": "Patient",
+    "identifier": [
+        {
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "adriano.freitas"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "2000-01-01",
+    "name": [
+        {
+            "family": "Freitas",
+            "given": ["adriano"]
+        }
+    ],
+    "telecom": [
+        {
+            "use": "home",
+            "value": "(03) 5555 6789 "
+        }
+    ],
+    "address": [    
+        {
+            "line": [
+                "3300 Washtenaw"
+            ],
+            "city": "Ann Harbor",
+            "state": "MI",
+            "country": "US",
+            "postalCode": "48104",
+            "district": "Washtenaw"
+        }
+    ]
+}
